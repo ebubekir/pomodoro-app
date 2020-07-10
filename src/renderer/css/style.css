@@ -1,0 +1,100 @@
+.ticks {
+    font-size: 80px;
+  }
+  .split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .left {
+    left: 0;
+    background-image: url("../images/break.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .right {
+    right: 0;
+    background-image: url("../images/todo_back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .centered-right {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 90%;
+  }
+  .btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 12px;
+    text-align: center;
+  }
+  .table {
+    opacity: 0.8;
+  }
+  #table-wrapper {
+    position: relative;
+  }
+  #table-scroll {
+    height:400px;
+    overflow:auto;
+    margin-top: 20px;
+  } 
+  #table-scroll::-webkit-scrollbar {
+    /*Your styles here*/
+    width: 5px;
+    display:block;
+    background:#383838;
+  }
+  #table-scroll::-webkit-scrollbar-track{
+      background:transparent;
+  }
+  
+  #table-scroll::-webkit-scrollbar-thumb {
+    /*Your styles here*/
+    background: #141414;
+    /* border-radius: 10px; */
+    border-right: none;
+    border-left: none;
+  }
+  #table-scroll::-webkit-scrollbar-track-piece:end{
+    background: transparent;
+    margin-bottom: 10px;
+  }
+  #table-scroll::-webkit-scrollbar-track-piece:end{
+    background: transparent;
+    margin-top: 10px;
+  }
+  
+  #table-wrapper table {
+    width: 100%;
+  }
+  #table-wrapper table * {
+  }
+  #table-wrapper table thead th .text {
+    position: absolute;
+    top: -20px;
+    z-index: 2;
+    height: 20px;
+    width: 35%;
+    border: 1px solid red;
+  }
