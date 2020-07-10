@@ -52,7 +52,7 @@ class UI {
     loadAllTodo(todos)
     {
       todos.forEach(todo => {
-          this.todoTable.innerHTML = 
+          this.todoTable.innerHTML += 
           `                
           <tr>
             <td>
