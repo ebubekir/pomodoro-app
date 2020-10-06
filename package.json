@@ -26,6 +26,6 @@
   },
   "homepage": "https://github.com/pandaclove/pomodoro-app#readme",
   "devDependencies": {
-    "electron": "^9.1.0"
+    "electron": "^9.3.0"
   }
 }
